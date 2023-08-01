@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*----------------- Header -------------------*/
+.container-topo {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #604829;
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    gap: 20rem;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+.container-topo div {
+    display: flex;
+    gap: 3rem;
+}
+
+.container-topo a {
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 18px;
+}
+
+.container-topo a:hover {
+    color: aliceblue;
+}
+
+.container-topo img {
+    width: 70px;
+} 
+
+/*---------------------------- Paralax e Textos ------------------------------*/
+
+.container-parallax1, .container-parallax2, .container-parallax3, .container-parallax4, .container-parallax5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-parallax1 h3, .container-parallax2 h3, .container-parallax3 h3, .container-parallax4 h3, .container-parallax5 h3 {
+    font-family: 'Fraunces', sans-serif;
+    color: #604829;
+}
+
+.container-parallax1 {
+    background-image: url("assets/parallax-imagem1.png");
+    height: 100vh;
+}
+
+.container-parallax1 h1 {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Fraunces', sans-serif;
+    height: 100vh;
+    color: #fff;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    text-align: center;
+    padding: 80px 0px;
+    font-size: 20px;
+}
+
+.container-texto p {
+    max-width: 1024px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.container-texto h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+}
+
+.container-parallax2 {
+    background-image: url("assets/parallax-imagem2.jpg");
+    height: 50vh;
+}
+
+.container-parallax3 {
+    background-image: url("assets/parallax-imagem3.jpg");
+    height: 50vh;
+}
+
+.container-parallax2 h3, .container-parallax3 h3{
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    margin: auto;
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #c4a47c;
+}
+
+/*-------------------------- Contatos ---------------------------*/
+
+.container-parallax4 h2, .container-parallax4 p {
+    background-color: #604829;
+    color: #fff;
+    width: 500px;
+    padding: 10px;
+}
+
+.container-parallax4 {
+    height: 100vh;
+}
+
+.container-parallax4 iframe{
+    position: absolute;
+    width: 1024px;
+    height: 450px;
+    top: 23%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.container-parallax4 h2 {
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.container-contatos {
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-contatos p{
+    margin: auto;
+}
+
+.container-parallax4 {
+    background-image: url("assets/parallax-imagem4.png");
+    height: 100vh;
+}
+
+/*-------------------------- Horários ---------------------------*/
+
+.container-parallax5 {
+    background-image: url("assets/cafeteria.jpg");
+    height: 85vh;
+}
+
+.lista {
+    position: absolute;
+    width: 768px;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+}
+
+.lista li{
+    position: relative;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.lista li div{
+    width: 65%;
+    height: 0.5px;
+    position: absolute;
+    margin: 0 auto;
+    top: 55%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista div {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    left: 0;
+}
+
+.lista li p, span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+
+.lista h3 {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container-parallax5 h2 {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+}
+
+.container-parallax5 p {
+    color: #acacac;
+}
+
+.container-parallax5 span {
+    color: #c4a47c;
+}
+
+/*-------------------------- Footer -----------------------------*/
+
+.container-rodape {
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta img {
+    background-color: #c4a47c;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 130px;
+    right: 50px;
+    border-radius: 4px;
+}
+
+.zap a{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    background-image: url("assets/whatsapp.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #29A71A;
+    border-radius: 4px;
+}
